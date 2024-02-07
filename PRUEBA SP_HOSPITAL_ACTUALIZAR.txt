@@ -1,0 +1,10 @@
+declare
+
+v_mensaje VARCHAR2(80);
+
+begin
+
+    SP_HOSPITAL_ACTUALIZAR(5, 6, 3, 25,'Joseph Avila', 2, v_mensaje);
+    dbms_output.put_line(v_mensaje);
+
+end;

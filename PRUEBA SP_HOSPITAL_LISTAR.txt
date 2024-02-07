@@ -1,0 +1,10 @@
+declare
+
+v_mensaje VARCHAR2(80);
+
+begin
+
+    SP_HOSPITAL_LISTAR(123, v_mensaje);
+    dbms_output.put_line(v_mensaje);
+
+end;
